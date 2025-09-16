@@ -1,0 +1,53 @@
+<Project>
+  <PropertyGroup>
+    <Nullable>enable</Nullable>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+    <GenerateEmbeddedFilesManifest>true</GenerateEmbeddedFilesManifest>
+
+    <AbpVersion>9.3.1</AbpVersion>
+    <MicrosoftVerison>9.0.8</MicrosoftVerison>
+  </PropertyGroup>
+  <!-- AbpPackages -->
+  <ItemGroup>
+  </ItemGroup>
+  <!-- AbpPackages -->
+  <!-- MicrosoftPackages -->
+  <ItemGroup>
+    <PackageVersion Include="AutoMapper" Version="15.0.1" />
+    <PackageVersion Include="Blazored.LocalStorage" Version="4.5.0" />
+    <PackageVersion Include="Blazored.SessionStorage" Version="2.4.0" />
+    <PackageVersion Include="EPPlus" Version="8.1.0" />
+    <PackageVersion Include="System.Text.Json" Version="$(MicrosoftVerison)" />
+    <PackageVersion Include="Microsoft.Extensions.Options" Version="$(MicrosoftVerison)" />
+    <PackageVersion Include="Microsoft.AspNetCore.Components.Authorization" Version="$(MicrosoftVerison)" />
+    <PackageVersion Include="Microsoft.AspNetCore.Components.WebAssembly" Version="$(MicrosoftVerison)" />
+    <PackageVersion Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="$(MicrosoftVerison)" PrivateAssets="all" />
+    <PackageVersion Include="Microsoft.AspNetCore.Components.Web" Version="$(MicrosoftVerison)" />
+    <PackageVersion Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="$(MicrosoftVerison)" />
+    <PackageVersion Include="Microsoft.Extensions.Configuration.Abstractions" Version="$(MicrosoftVerison)" />
+    <PackageVersion Include="Microsoft.Extensions.FileProviders.Abstractions" Version="$(MicrosoftVerison)" />
+    <PackageVersion Include="Microsoft.Extensions.FileProviders.Physical" Version="$(MicrosoftVerison)" />
+    <PackageVersion Include="Microsoft.Extensions.FileProviders.Embedded" Version="$(MicrosoftVerison)" />
+    <PackageVersion Include="Microsoft.Extensions.FileProviders.Composite" Version="$(MicrosoftVerison)" />
+    <PackageVersion Include="Microsoft.Extensions.Http" Version="$(MicrosoftVerison)" />
+    <PackageVersion Include="Microsoft.Extensions.Localization" Version="$(MicrosoftVerison)" />
+    <PackageVersion Include="Microsoft.Extensions.Localization.Abstractions" Version="$(MicrosoftVerison)" />
+    <PackageVersion Include="MiniExcel" Version="1.41.3" />
+    <PackageVersion Include="NewtonSoft.Json" Version="13.0.3" />
+    <PackageVersion Include="NPOI" Version="2.7.4" />
+  </ItemGroup>
+  <!-- MicrosoftPackages -->
+  <!-- TestPackages -->
+  <ItemGroup>
+  </ItemGroup>
+  <!-- TestPackages -->
+  <!-- OtherPackages -->
+  <ItemGroup>
+    <PackageVersion Include="Radzen.Blazor" Version="7.2.1" />
+  </ItemGroup>
+  <!-- OtherPackages -->
+  <!-- CustomizePackages -->
+  <ItemGroup>
+  </ItemGroup>
+  <!-- CustomizePackages -->
+</Project>
